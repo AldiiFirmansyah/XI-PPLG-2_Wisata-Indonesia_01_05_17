@@ -1,0 +1,428 @@
+body{
+font-family: Rokkitt;
+margin: 0;
+padding: 0;
+display: flex;
+flex-direction: column;
+background-color: black;
+}
+.cari{
+    color: aliceblue;
+}
+.search input{
+    position: absolute;
+    right: 700px;
+    border: 2px solid #ffffff;
+    border-radius: 50px;
+    padding: 5px;
+    width: 200px;
+    background-color: transparent;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    color: white;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+.content .right button{
+    padding: 10px 20px;
+    background-color: orange;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.body1 {
+    flex: 1;
+    background: url(/TUGAS/TUGAS/aset/labuanbajo.png) no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.body2{
+    flex: 1;
+    background-color: black;
+    height: 100vh;
+}
+.body3{
+    flex: 1;
+    background-color: black;
+    background-size: cover;
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.body4{
+    flex: 1;
+    background-color: black;
+    background-size: cover;
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.body5{
+    flex: 1;
+    background-color: black;
+    background-size: cover;
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.body6{
+    flex: 1;
+    background-color: black;
+    background-size: cover;
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+nav ul {
+    font-family: Roboto;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 40px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+nav ul li {
+margin-right: 20px;
+color: white;
+}
+
+nav ul li input {
+    padding: 5px;
+    color: white;
+}
+
+nav ul li button {
+    font-family: Roboto;
+    padding: 7px 30px;
+    background-color: #FF3D00;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+/*LABUAN BAJO*/
+
+.bawah {
+    background-position: center;
+    height: 100%;
+    position: relative;
+    
+}
+
+.bawah-content {
+    position: relative;
+    text-align: center;
+    color: white;
+    top: 60%;
+    transform: translateY(30%);
+}
+
+h1 {
+    font-size: 200px;
+    line-height: 0.3;
+}
+
+.bawah-links a{
+    margin: 0 40px;
+    color: white;
+    padding: 0px 20px;
+    font-family: Roboto;
+    font-weight:300;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.content .right .links a{
+    margin-right: 10px;
+    color: red;
+    text-decoration: none;
+}
+
+p{
+    color: white;
+    font-family: Roboto;
+    font-weight: 400;
+    opacity: 70%;
+    font-size: 30px;
+}
+
+.kanan{
+    margin-left: 270px;
+}
+
+.fotolabuan{
+    position: relative;
+    display: flex;
+    padding: 10%, 0%, 10%, 50%;
+}
+
+/*JAM GADANG*/
+
+.bawah2 {
+    background: url(/TUGAS/TUGAS/aset/jamgadang.png) no-repeat center center fixed;
+    background-position: center;
+    height: 90vh;
+    position: relative;
+    background-size: cover;
+}
+
+.bawah-content2 {
+    text-align: center;
+    color: white;
+    top: 50%;
+}
+
+.bawah-links2 a{
+    margin: 0 40px;
+    color: white;
+    padding: 0px 20px;
+    font-family: Roboto;
+    font-weight:300;
+}
+
+.content2 {
+    display: flex;
+    padding: 50px 0px 0px 50px;
+    flex-grow: 1;
+}
+
+.content2 .right .links a{
+    margin-right: 10px;
+    color: red;
+    text-decoration: none;
+}
+
+p{
+    color: white;
+    font-family: Roboto;
+    font-weight: 400;
+    opacity: 70%;
+}
+
+.kanan2{
+    margin-left: 270px;
+}
+
+.fotojam{
+    position: relative;
+    display: flex;
+    left: 0%;
+}
+
+/* NUSA PENIDA*/
+
+.bawah3 {
+    background: url(/TUGAS/TUGAS/aset/nusapenida.png) no-repeat center center fixed;
+    background-position: center;
+    height: 90vh;
+    position: relative;
+    background-size: cover;
+    color: white;
+}
+
+.bawah-content3 {
+    text-align: center;
+    color: white;
+    top: 50%;
+}
+
+.bawah3 
+{
+    line-height: 0.3;
+}
+
+.bawah-links3 a{
+    margin: 0 40px;
+    color: white;
+    padding: 0px 20px;
+    font-family: Roboto;
+    font-weight:300;
+}
+
+.content3 {
+    display: flex;
+    padding: 50px 0px 0px 50px;
+}
+
+.content3 .right .links a{
+    margin-right: 10px;
+    color: red;
+    text-decoration: none;
+}
+
+p{
+    color: white;
+    font-family: Roboto;
+    font-weight: 400;
+    opacity: 70%;
+}
+
+.kanan3{
+    margin-left: 270px;
+}
+
+.fotonusa{
+    position: relative;
+    display: flex;
+    padding: 10%, 0%, 10%, 50%;
+}
+
+/* RAJA AMPAT */
+
+.bawah4 {
+    background: url(/TUGAS/TUGAS/aset/rajaampat.png) no-repeat center center fixed;
+    background-position: center;
+    height: 90vh;
+    position: relative;
+    background-size: cover;
+}
+
+.bawah-content4 {
+    text-align: center;
+    color: white;
+    top: 50%;
+}
+
+.bawah-links4 a{
+    margin: 0 40px;
+    color: white;
+    padding: 0px 20px;
+    font-family: Roboto;
+    font-weight:300;
+}
+
+.content4 {
+    display: flex;
+    padding: 50px;
+}
+
+.content4 .right .links a{
+    margin-right: 10px;
+    color: red;
+    text-decoration: none;
+}
+
+h2, .Tales{
+    display: flex;
+    color: white;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 80px;
+    margin-left: 263px;
+    z-index: 2000;
+   
+}
+p{
+    color: white;
+    font-family: Roboto;
+    font-weight: 400;
+    opacity: 70%;
+}
+
+.kanan4{
+    margin-left: 270px;
+}
+
+.fotoampat{
+    position: relative;
+    display: flex;
+    left: 0px;
+}
+
+#profile-pic{
+    width: 40px;
+    height: 40px;
+
+}
+
+#loginbtn {
+    transition: transform 0.3s ease-in-out;
+}
+
+#loginbtn.grow {
+    transform: scale(1.5);
+}
+
+.des{
+    display: flex;
+    position: relative;
+    left: 300px;
+
+}
+
+li{
+    margin-left:200px;
+}
+
+/* BANDA NEIRA*/
+.bawah7 {
+    background: url(/TUGAS/TUGAS/aset/bandaneira.png) no-repeat center center fixed;
+    background-position: center;
+    height: 90vh;
+    position: relative;
+    background-size: cover;
+    color: white;
+}
+
+.bawah-content5 {
+    text-align: center;
+    color: white;
+    top: 50%;
+}
+
+.kanan5{
+    margin-left: 270px;
+}
+
+.bawah-links5 a{
+    margin: 0 40px;
+    color: white;
+    padding: 0px 20px;
+    font-family: Roboto;
+    font-weight:300;
+}
+
+.profil {
+    position: relative;
+    right: 5%;
+    border-radius: 50%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:0.5em;
+}
+
+
+.DESKRIPSI1{
+    position: relative;
+    display: flex;
+  
+   justify-content: space-between; 
+}
